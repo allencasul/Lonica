@@ -1,4 +1,4 @@
-# [Lonica CSS](https://github.com/allencasul/Lonica) ![](https://img.shields.io/github/package-json/v/allencasul/Lonica) [![](https://data.jsdelivr.com/v1/package/npm/Lonica/badge)](https://www.jsdelivr.com/package/npm/Lonica) ![](https://img.shields.io/npm/dm/Lonica?color=red&logo=npm) ![Github](https://img.shields.io/github/license/allencasul/Lonica?logo=Github)
+# [Lonica CSS](https://github.com/allencasul/Lonica) ![](https://img.shields.io/github/package-json/v/allencasul/Lonica) [![](https://data.jsdelivr.com/v1/package/npm/Lonica/badge)](https://www.jsdelivr.com/package/npm/Lonica) [Github](https://img.shields.io/github/license/allencasul/Lonica?logo=Github)
 
 
 An open-source design system framework that provides access to pre-built class components to quickly build modern web apps or use built-in utility classes to write custom CSS directly inside your markup.
@@ -1606,9 +1606,10 @@ background-color-amethyst   =   { background-color: var(--amethyst); }
 
 <img src="https://firebasestorage.googleapis.com/v0/b/lonica.appspot.com/o/img%2Fcolor-1.png?alt=media&token=8bc028a2-7c25-471a-887b-fe1559df908e" style="max-width:100%;" width="970">
 <img src="https://firebasestorage.googleapis.com/v0/b/lonica.appspot.com/o/img%2Fcolor-2.png?alt=media&token=0a023248-bda0-4404-a3cc-7fcf27685ee9" style="max-width:100%;" width="970">
-<img src="#" style="max-width:100%;" width="970">
-<img src="#" style="max-width:100%;" width="970">
-<img src="#" style="max-width:100%;" width="970">
+<img src="https://firebasestorage.googleapis.com/v0/b/lonica.appspot.com/o/img%2Fcolor-3.png?alt=media&token=5d1adebf-d850-4434-920e-a14765f052c8" style="max-width:100%;" width="970">
+<img src="https://firebasestorage.googleapis.com/v0/b/lonica.appspot.com/o/img%2Fcolor-4.png?alt=media&token=13203dc7-9920-4087-b8c6-7ba082843877" style="max-width:100%;" width="970">
+<img src="https://firebasestorage.googleapis.com/v0/b/lonica.appspot.com/o/img%2Fcolor-5.png?alt=media&token=7e125221-d776-4e84-b165-0c3222f885e2" style="max-width:100%;" width="970">
+
 
 
 ## Licensing
