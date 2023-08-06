@@ -658,35 +658,6 @@ Use all available pre-made components below:
 </div>
 ```
 
-## Form 
-
-```sh
-<div class="secondary-input-container center-absolute w-fit-content h-fit-content background-color-white border-radius-secondary">
-  <div class="secondary-input-title font-size-massive color-primary margin-bottom-1-rem text-align-center font-weight-bold">Register</div>
-  <div class="secondary-input-description font-size-medium color-toast margin-bottom-3-rem text-align-center w-19-point-5-rem">Your future friends are waiting for you to join. Create Account Now!</div>
-  <form class="w-100-pct h-100-pct display-grid place-content-center" action="#" method="post">
-    <div class="secondary-input-content-container margin-bottom-1-rem w-19-point-5-rem border-primary border-radius-secondary">
-      <input class="secondary-input" type="text" placeholder=" " autocomplete="off"/>
-      <label>Email</label>
-    </div>
-    <div class="secondary-input-content-container margin-bottom-1-rem w-19-point-5-rem border-primary border-radius-secondary">
-      <input class="secondary-input" type="text" placeholder=" " autocomplete="off"/>
-      <label>Username</label>
-    </div>
-    <div class="secondary-input-content-container margin-bottom-1-rem w-19-point-5-rem border-primary border-radius-secondary">
-      <input class="secondary-input" type="password" placeholder=" " autocomplete="off"/>
-      <label>Password</label>
-    </div>
-    <div class="primary-checkbox-container margin-bottom-2-rem">
-      <input class="primary-checkbox" type="checkbox" required>
-      <div class="primary-checkbox-description color-toast font-size-small">I agree to the <a class="font-size-small color-primary" href="https://lonica.com/privacy-policy" target="-blank">Privacy Policy</a>.</div>
-    </div>
-    <button class="primary-button background-color-primary font-size-medium color-white border-radius-secondary">
-      Register <i class="fa-solid fa-arrow-right primary-button-icon color-white"></i>
-    </button>
-  </form>
-</div>
-```
 
 ## Stepper
 
