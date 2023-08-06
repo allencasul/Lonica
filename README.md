@@ -1,4 +1,4 @@
-# [Lonica CSS](https://github.com/allencasul/Lonica) ![](https://img.shields.io/github/package-json/v/allencasul/Lonica) [![](https://data.jsdelivr.com/v1/package/npm/Lonica/badge)](https://www.jsdelivr.com/package/npm/Lonica) [Github](https://img.shields.io/github/license/allencasul/Lonica?logo=Github)
+# [Lonica CSS](https://github.com/allencasul/Lonica) ![](https://img.shields.io/github/package-json/v/allencasul/Lonica) [![](https://data.jsdelivr.com/v1/package/npm/Lonica/badge)](https://www.jsdelivr.com/package/npm/Lonica) ![Github](https://img.shields.io/github/license/allencasul/Lonica?logo=Github)
 
 
 An open-source design system framework that provides access to pre-built class components to quickly build modern web apps or use built-in utility classes to write custom CSS directly inside your markup.
