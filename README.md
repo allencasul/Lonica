@@ -1294,18 +1294,6 @@ place-content-right   =   { place-content: right; }
   
 ------------------------------------------------------------------
 
-grid-temp-col-primary   =   { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
-  
-------------------------------------------------------------------
-
-grid-temp-col-secondary   =   { grid-template-columns: 50% 50%; }
-  
-------------------------------------------------------------------
-
-grid-temp-col-tertiary   =   { grid-template-columns: 33% 33% 33%; }
-  
-------------------------------------------------------------------
-
 column-gap-1-rem   =   { column-gap: 1rem; }
   
 ------------------------------------------------------------------
@@ -1332,22 +1320,28 @@ place-content-center   =   { place-content: center; }
 
 place-items-center   =   { place-items: center; }
   
-------------------------------------------------------------------  
+------------------------------------------------------------------ 
+
 place-content-start   =   { place-content: start; }
   
 ------------------------------------------------------------------ 
+
 place-content-end   =   { place-content: end; }
   
 ------------------------------------------------------------------  
+
 place-content-left   =   { place-content: left; }
   
-------------------------------------------------------------------  
+------------------------------------------------------------------
+
 place-content-right   =   { place-content: right; }
   
 ------------------------------------------------------------------
+
 grid-temp-col-primary   =   { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
   
 ------------------------------------------------------------------ 
+
 grid-temp-col-secondary   =   { grid-template-columns: 50% 50%; }
   
 ------------------------------------------------------------------
@@ -1610,7 +1604,7 @@ background-color-successful   =   { background-color: var(--successful); }
 background-color-amethyst   =   { background-color: var(--amethyst); }
 ```
 
-<img src="#" style="max-width:100%;" width="970">
+<img src="https://firebasestorage.googleapis.com/v0/b/lonica.appspot.com/o/img%2Fcolor-1.png?alt=media&token=8bc028a2-7c25-471a-887b-fe1559df908e" style="max-width:100%;" width="970">
 <img src="#" style="max-width:100%;" width="970">
 <img src="#" style="max-width:100%;" width="970">
 <img src="#" style="max-width:100%;" width="970">
