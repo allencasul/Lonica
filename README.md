@@ -668,17 +668,14 @@ Use all available pre-made components below:
     <div class="secondary-input-content-container margin-bottom-1-rem w-19-point-5-rem border-primary border-radius-secondary">
       <input class="secondary-input" type="text" placeholder=" " autocomplete="off"/>
       <label>Email</label>
-      <i class="fa-solid fa-envelope secondary-input-icon color-primary"></i>
     </div>
     <div class="secondary-input-content-container margin-bottom-1-rem w-19-point-5-rem border-primary border-radius-secondary">
       <input class="secondary-input" type="text" placeholder=" " autocomplete="off"/>
       <label>Username</label>
-      <i class="fa-solid fa-user secondary-input-icon color-primary"></i>
     </div>
     <div class="secondary-input-content-container margin-bottom-1-rem w-19-point-5-rem border-primary border-radius-secondary">
       <input class="secondary-input" type="password" placeholder=" " autocomplete="off"/>
       <label>Password</label>
-      <i class="fa-solid fa-lock secondary-input-icon color-primary"></i>
     </div>
     <div class="primary-checkbox-container margin-bottom-2-rem">
       <input class="primary-checkbox" type="checkbox" required>
@@ -745,14 +742,6 @@ Use all available pre-made components below:
     <input type="email" class="primary-input background-color-white color-black font-size-medium" placeholder="Email" autocomplete="off">
   </div>
   <hr class="primary-input-line border-color-primary">
-</div>
-
-------------------------------------------------------------------
-
-<div class="secondary-input-content-container margin-bottom-1-rem w-19-point-5-rem border-primary border-radius-secondary">
-  <input class="secondary-input" type="password" placeholder=" " autocomplete="off"/>
-  <label>Password</label>
-  <i class="fa-solid fa-lock secondary-input-icon color-primary"></i>
 </div>
 ```
 
@@ -872,6 +861,26 @@ Use all available pre-made components below:
   </div>
 </div>
 ```
+
+
+### Showing Up Components
+
+To show a specific component such as a Dropdown, Side Bar, Search, Bottom Sheet Dialog, Alert Dialog, and Toast, just simply copy the id name of the component you want to show, and paste it wherever you want, for example inside the button, icon or even a text. It will show up automatically once clicked.
+
+```sh
+id="showDropdownMenuComponent"
+
+id="showSideBarComponent"
+
+id="showSearchComponent"
+
+id="showBottomSheetDialogComponent"
+
+id="showAlertDialogComponent"
+
+id="showToastComponent"
+```
+
 
 ### Lonica CSS Utilities
 
