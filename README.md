@@ -1605,7 +1605,7 @@ background-color-amethyst   =   { background-color: var(--amethyst); }
 ```
 
 <img src="https://firebasestorage.googleapis.com/v0/b/lonica.appspot.com/o/img%2Fcolor-1.png?alt=media&token=8bc028a2-7c25-471a-887b-fe1559df908e" style="max-width:100%;" width="970">
-<img src="#" style="max-width:100%;" width="970">
+<img src="https://firebasestorage.googleapis.com/v0/b/lonica.appspot.com/o/img%2Fcolor-2.png?alt=media&token=0a023248-bda0-4404-a3cc-7fcf27685ee9" style="max-width:100%;" width="970">
 <img src="#" style="max-width:100%;" width="970">
 <img src="#" style="max-width:100%;" width="970">
 <img src="#" style="max-width:100%;" width="970">
