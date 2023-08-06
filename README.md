@@ -1604,8 +1604,9 @@ background-color-successful   =   { background-color: var(--successful); }
 background-color-amethyst   =   { background-color: var(--amethyst); }
 ```
 
+
 <img src="https://firebasestorage.googleapis.com/v0/b/lonica.appspot.com/o/img%2Fcolor-1.png?alt=media&token=8bc028a2-7c25-471a-887b-fe1559df908e" style="max-width:100%;" width="970">
-<img src="https://firebasestorage.googleapis.com/v0/b/lonica.appspot.com/o/img%2Fcolor-2.png?alt=media&token=0a023248-bda0-4404-a3cc-7fcf27685ee9" style="max-width:100%;" width="970">
+<img src="https://firebasestorage.googleapis.com/v0/b/lonica.appspot.com/o/img%2Fcolor-2.png?alt=media&token=e8830126-3b9a-4526-a00b-f659a20fa5e6" style="max-width:100%;" width="970">
 <img src="https://firebasestorage.googleapis.com/v0/b/lonica.appspot.com/o/img%2Fcolor-3.png?alt=media&token=5d1adebf-d850-4434-920e-a14765f052c8" style="max-width:100%;" width="970">
 <img src="https://firebasestorage.googleapis.com/v0/b/lonica.appspot.com/o/img%2Fcolor-4.png?alt=media&token=13203dc7-9920-4087-b8c6-7ba082843877" style="max-width:100%;" width="970">
 <img src="https://firebasestorage.googleapis.com/v0/b/lonica.appspot.com/o/img%2Fcolor-5.png?alt=media&token=7e125221-d776-4e84-b165-0c3222f885e2" style="max-width:100%;" width="970">
