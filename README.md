@@ -1,10 +1,5 @@
-# [Lonica CSS](https://github.com/allencasul/Lonica)
+# [Lonica CSS](https://github.com/allencasul/Lonica) ![](https://img.shields.io/github/package-json/v/allencasul/Lonica) ![](https://img.shields.io/jsdelivr/gh/hm/allencasul/lonica?color=orange)](https://www.jsdelivr.com/package/gh/allencasul/lonica) ![Github](https://img.shields.io/github/stars/allencasul/lonica?logo=github&color=6249EF)(https://github.com/allencasul/lonica/stargazers) ![Github](https://img.shields.io/github/license/allencasul/Lonica?logo=Github)
 
- ![](https://img.shields.io/github/package-json/v/allencasul/Lonica) 
- 
- [![jsdelivr](https://img.shields.io/jsdelivr/gh/hm/allencasul/lonica)](https://www.jsdelivr.com/package/gh/allencasul/lonica) 
- 
- ![Github](https://img.shields.io/github/license/allencasul/Lonica?logo=Github)
 
 
 An open-source design system framework that provides access to pre-built class components to quickly build modern web apps or use built-in utility classes to write custom CSS directly inside your markup.
