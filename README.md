@@ -1,4 +1,10 @@
-# [Lonica CSS](https://github.com/allencasul/Lonica) ![](https://img.shields.io/github/package-json/v/allencasul/Lonica) [![](https://data.jsdelivr.com/v1/package/npm/Lonica/badge)](https://www.jsdelivr.com/package/npm/Lonica) ![Github](https://img.shields.io/github/license/allencasul/Lonica?logo=Github)
+# [Lonica CSS](https://github.com/allencasul/Lonica)
+
+ ![](https://img.shields.io/github/package-json/v/allencasul/Lonica) 
+ 
+ [![jsdelivr](https://img.shields.io/jsdelivr/gh/hm/allencasul/lonica)](https://www.jsdelivr.com/package/gh/allencasul/lonica) 
+ 
+ ![Github](https://img.shields.io/github/license/allencasul/Lonica?logo=Github)
 
 
 An open-source design system framework that provides access to pre-built class components to quickly build modern web apps or use built-in utility classes to write custom CSS directly inside your markup.
@@ -7,6 +13,22 @@ An open-source design system framework that provides access to pre-built class c
 
 ## Installation
 
+### Utilizing Framework via CDN
+
+```sh
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/allencasul/lonica@ecf757694536701bca01f35abccd027d973b87cb/css/cdn/lonica.css" integrity="sha256-ZvOPRbk40bnqb7kYJpMnfIBOoIKaHXksgI9BWuvupYE=" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+  <script defer src="https://kit.fontawesome.com/1e8d61f212.js"></script>
+</head>
+
+<body>
+
+  <script defer src="https://cdn.jsdelivr.net/gh/allencasul/lonica@ecf757694536701bca01f35abccd027d973b87cb/js/components.min.js" integrity="sha256-RDu3ysp4BVgm91duXwSsiZ4cx8UGcnSA2hxKLFZMjP8=" crossorigin="anonymous"></script>
+</body>
+```
+
+
 Installing Lonica CSS
 
 ### Utilizing Framework via NPM
@@ -14,6 +36,7 @@ Installing Lonica CSS
 ```sh
 npm install lonica
 ```
+
 
 Overview:
 
@@ -27,6 +50,8 @@ Overview:
 - Edge
 - Firefox
 - Opera & any modern browser
+
+
 
 ### HTML Template
 
@@ -144,10 +169,10 @@ Create style.css file, and copy paste the code below.
 }   
 ```
 
+
 ### Utilizing Components
 
 Use all available pre-made components below:
-
 
 ### Preloader
 
