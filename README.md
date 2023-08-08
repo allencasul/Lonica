@@ -2,7 +2,7 @@
 
 
 
-An open-source design system framework that provides access to pre-built class components to quickly build modern web apps or use built-in utility classes to write custom CSS directly inside your markup. "Lonica means source of Happiness and Power".
+An open-source design system framework that provides access to pre-built class components to quickly build modern web apps or use built-in utility classes to write custom CSS directly inside your markup. "Lonica" means source of happiness and power.
 
 
 <img src="https://firebasestorage.googleapis.com/v0/b/lonica.appspot.com/o/gif%2Fhappiness.gif?alt=media&token=7fe57708-8ba0-45d9-b385-d6ce1bd16472" style="max-width:100%;" width="360">
