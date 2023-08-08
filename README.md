@@ -1,4 +1,4 @@
-# [Lonica CSS](https://github.com/allencasul/Lonica) ![](https://img.shields.io/github/package-json/v/allencasul/Lonica) ![](https://img.shields.io/jsdelivr/gh/hm/allencasul/lonica?color=orange)] ![Github](https://img.shields.io/github/stars/allencasul/lonica?logo=github&color=6249EF) ![Github](https://img.shields.io/github/license/allencasul/Lonica?logo=Github)
+# [Lonica CSS](https://github.com/allencasul/Lonica) ![](https://img.shields.io/github/package-json/v/allencasul/Lonica) ![](https://img.shields.io/jsdelivr/gh/hm/allencasul/lonica?color=orange) ![Github](https://img.shields.io/github/stars/allencasul/lonica?logo=github&color=6249EF) ![Github](https://img.shields.io/github/license/allencasul/Lonica?logo=Github)
 
 
 
