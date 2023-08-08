@@ -776,12 +776,6 @@ Use all available pre-made components below:
 <button class="primary-button background-color-primary font-size-medium color-white border-radius-secondary display-flex column-gap-1-rem">
   Login <i class="fa-solid fa-sign-in primary-button-icon color-white"></i>
 </button>
-
-------------------------------------------------------------------
-
-<button class="secondary-button background-color-primary border-radius-senary display-flex column-gap-1-rem">
-  Login <i class="fa-solid fa-sign-in secondary-button-icon"></i>
-</button>
 ```
 
 ## Onboarding Screen
