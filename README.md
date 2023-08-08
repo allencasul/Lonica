@@ -379,10 +379,10 @@ Use all available pre-made components below:
 
 <div class="secondary-side-bar-container w-4-point-5-rem h-100-vh background-color-white box-shadow-primary">
   <div class="secondary-side-bar-content-container center-absolute display-grid place-content-center row-gap-3-rem">
-    <i class="fa-solid fa-home color-primary font-size-larger cursor-pointer" title="Home"></i>
-    <i class="fa-regular fa-comment-alt color-toast font-size-larger cursor-pointer" title="Chat"></i>
-    <i class="fa-regular fa-user color-toast font-size-larger cursor-pointer" title="Profile"></i>
-    <i class="fa-solid fa-share-alt color-toast font-size-larger cursor-pointer" title="Share"></i>
+    <i class="fa-solid fa-home color-primary font-size-large cursor-pointer" title="Home"></i>
+    <i class="fa-regular fa-comment-alt color-toast font-size-large cursor-pointer" title="Chat"></i>
+    <i class="fa-regular fa-user color-toast font-size-large cursor-pointer" title="Profile"></i>
+    <i class="fa-solid fa-share-alt color-toast font-size-large cursor-pointer" title="Share"></i>
   </div>
 </div>
 ```
@@ -669,7 +669,7 @@ Use all available pre-made components below:
         <i class="fa-solid fa-check color-white font-size-large"></i>
       </div>
       <div class="primary-stepper-text-container">
-        <div class="primary-stepper-title font-size-medium font-weight-bold">Order Placed</div>
+        <div class="primary-stepper-title color-primary font-size-medium font-weight-bold">Order Placed</div>
         <div class="primary-stepper-description color-toast font-size-medium">Your order has been placed</div>
       </div>
     </div>
@@ -735,6 +735,17 @@ Use all available pre-made components below:
 <div class="primary-checkbox-container">
   <input class="primary-checkbox" type="checkbox">
   <div class="primary-checkbox-description color-black font-size-small">I agree to the <a class="font-size-small color-primary" href="https://lonica.com/privacy-policy" target="-blank">Privacy Policy</a>.</div>
+</div>
+
+------------------------------------------------------------------
+
+<div class="secondary-checkbox-container">
+  <input class="secondary-checkbox" id="switch" type="checkbox" aria-label="switch"/>
+  <label class="secondary-checkbox-label" for="switch">
+    <div class="secondary-checkbox-ball">
+    
+    </div>
+  </label>
 </div>
 ```
 
