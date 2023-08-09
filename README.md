@@ -4,7 +4,6 @@
 
 An open-source design system framework that provides access to pre-built class components to quickly build modern web apps or use built-in utility classes to write custom CSS directly inside your markup. "Lonica" means source of happiness and beauty.
 
-
 <img src="https://firebasestorage.googleapis.com/v0/b/lonica.appspot.com/o/gif%2Fhappiness.gif?alt=media&token=7fe57708-8ba0-45d9-b385-d6ce1bd16472" style="max-width:100%;" width="360">
 
 ## Installation
@@ -429,8 +428,8 @@ Use all available pre-made components below:
 <div class="primary-bottom-navigation-bar-container background-color-white">
   <div class="primary-bottom-navigation-bar-content-container">
     <div class="primary-bottom-navigation-bar-content">
-      <i class="fa-solid fa-home primary-bottom-navigation-bar-icon color-primary"></i>
-      <div class="primary-bottom-navigation-bar-text-title color-primary">Home</div>
+      <i class="fa-solid fa-home primary-bottom-navigation-bar-icon active"></i>
+      <div class="primary-bottom-navigation-bar-text-title active">Home</div>
     </div>
     <div class="primary-bottom-navigation-bar-content">
       <i class="fa-solid fa-heart primary-bottom-navigation-bar-icon color-black"></i>
@@ -457,18 +456,18 @@ Use all available pre-made components below:
 
 ```sh
 <div class="primary-drop-down-menu-overlay" id="primaryDropDownMenuOverlay"></div>
-<div class="primary-drop-down-menu-container background-color-white" id="primaryDropDownMenuContainer">
+<div class="primary-drop-down-menu-container" id="primaryDropDownMenuContainer">
   <div class="primary-drop-down-menu-content-container">
-    <i class="fa-solid fa-newspaper primary-drop-down-menu-icon color-black"></i>
-    <p class="primary-drop-down-menu-icon-text color-black">Documentation</p>
+    <i class="fa-solid fa-newspaper primary-drop-down-menu-icon"></i>
+    <p class="primary-drop-down-menu-icon-text">Documentation</p>
   </div>
   <div class="primary-drop-down-menu-content-container">
-    <i class="fa-solid fa-pager primary-drop-down-menu-icon color-black"></i>
-    <p class="primary-drop-down-menu-icon-text color-black">Blog</p>
+    <i class="fa-solid fa-pager primary-drop-down-menu-icon"></i>
+    <p class="primary-drop-down-menu-icon-text">Blog</p>
   </div>
   <div class="primary-drop-down-menu-content-container">
-    <i class="fa-solid fa-phone primary-drop-down-menu-icon color-black"></i>
-    <p class="primary-drop-down-menu-icon-text color-black">Contact</p>
+    <i class="fa-solid fa-phone primary-drop-down-menu-icon"></i>
+    <p class="primary-drop-down-menu-icon-text">Contact</p>
   </div>
 </div> 
 ```
@@ -686,11 +685,11 @@ Use all available pre-made components below:
 <div class="primary-stepper-container">
   <div class="primary-steppper-content-container">
     <div class="primary-steppper-content">
-      <div class="primary-stepper-circle w-3-rem h-3-rem background-color-primary border-radius-senary color-white font-size-large font-weight-bold display-grid place-content-center">
+      <div class="primary-stepper-circle w-3-rem h-3-rem background-color-active-primary border-radius-senary color-white font-size-large font-weight-bold display-grid place-content-center">
         <i class="fa-solid fa-check color-white font-size-large"></i>
       </div>
       <div class="primary-stepper-text-container">
-        <div class="primary-stepper-title color-primary font-size-medium font-weight-bold">Order Placed</div>
+        <div class="primary-stepper-title color-active-primary font-size-medium font-weight-bold">Order Placed</div>
         <div class="primary-stepper-description color-toast font-size-medium">Your order has been placed</div>
       </div>
     </div>
@@ -699,7 +698,7 @@ Use all available pre-made components below:
         2 
       </div>
       <div class="primary-stepper-text-container">
-        <div class="primary-stepper-title font-size-medium font-weight-bold">Preparing</div>
+        <div class="primary-stepper-title color-black font-size-medium font-weight-bold">Preparing</div>
         <div class="primary-stepper-description color-toast font-size-medium">Your order is being prepared</div>
       </div>
     </div>
@@ -708,7 +707,7 @@ Use all available pre-made components below:
         3 
       </div>
       <div class="primary-stepper-text-container">
-        <div class="primary-stepper-title font-size-medium font-weight-bold">On the way</div>
+        <div class="primary-stepper-title color-black font-size-medium font-weight-bold">On the way</div>
         <div class="primary-stepper-description color-toast font-size-medium">Your order is being shipped</div>
       </div>
     </div>
@@ -717,7 +716,7 @@ Use all available pre-made components below:
         4 
       </div>
       <div class="primary-stepper-text-container">
-        <div class="primary-stepper-title font-size-medium font-weight-bold">Delivered</div>
+        <div class="primary-stepper-title color-black font-size-medium font-weight-bold">Delivered</div>
         <div class="primary-stepper-description color-toast font-size-medium">Your order was delivered successfully</div>
       </div>
     </div>
@@ -744,7 +743,7 @@ Use all available pre-made components below:
 <div class="primary-search-container background-color-white" id="primarySearchContainer">
   <form class="primary-search-content-container" method="get">
     <i class="fa-solid fa-arrow-left primary-search-icon color-black" id="hideSearch" title="Back"></i>
-    <input class="primary-search-input w-100-pct background-color-white font-size-medium color-black border-none" type="text" placeholder="Search here...">
+    <input class="primary-search-input w-100-pct background-color-white font-size-large color-black border-none" type="text" placeholder="Search here...">
     <button class="primary-search-button" type="submit"><i class="fa-solid fa-search primary-search-icon color-black" title="Search"></i></button>
   </form>
 </div>
@@ -785,8 +784,8 @@ Use all available pre-made components below:
   <div class="primary-onboarding-screen-content-container">
     <div class="primary-onboarding-screen-top-content-container text-align-center">
       <img class="primary-onboarding-screen-image w-11-rem margin-bottom-1-rem" src="https://firebasestorage.googleapis.com/v0/b/lonica.appspot.com/o/svg%2Fbadge.svg?alt=media&token=30a5229e-fcc8-46fa-ae2c-9339e5443df9" alt="badge">
-      <div class="primary-onboarding-screen-title font-size-large font-weight-bold margin-bottom-1-rem text-align-center">Trusted Worldwide</div>
-      <div class="primary-onboarding-screen-desc font-size-medium text-align-center">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, velit?</div>
+      <div class="primary-onboarding-screen-title color-black font-size-large font-weight-bold margin-bottom-1-rem text-align-center">Leading Worldwide</div>
+      <div class="primary-onboarding-screen-desc color-black font-size-medium text-align-center">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, velit?</div>
     </div>
     <div class="primary-onboarding-screen-bottom-content-container w-100-pct display-grid place-content-center text-align-center">
       <button class="primary-onboarding-screen-button w-17-point-5-rem margin-bottom-1-rem" id="firstOnboardingScreenButton">Next</button>
@@ -799,8 +798,8 @@ Use all available pre-made components below:
   <div class="primary-onboarding-second-screen-content-container">
     <div class="primary-onboarding-second-screen-top-content-container text-align-center">
       <img class="primary-onboarding-second-screen-image w-11-rem margin-bottom-1-rem" src="https://firebasestorage.googleapis.com/v0/b/lonica.appspot.com/o/svg%2Fbag.svg?alt=media&token=4491e00b-00e0-4d9f-8031-9f83a741d8fc" alt="bag">
-      <div class="primary-onboarding-second-screen-title font-size-large font-weight-bold margin-bottom-1-rem text-align-center">Shop with Confident</div>
-      <div class="primary-onboarding-second-screen-desc font-size-medium text-align-center">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, velit?</div>
+      <div class="primary-onboarding-second-screen-title color-black font-size-large font-weight-bold margin-bottom-1-rem text-align-center">Shop with Confident</div>
+      <div class="primary-onboarding-second-screen-desc color-black font-size-medium text-align-center">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, velit?</div>
     </div>
     <div class="primary-onboarding-second-screen-bottom-content-container w-100-pct display-grid place-content-center text-align-center">
       <div class="primary-onboarding-second-screen-stepper-container">
@@ -817,8 +816,8 @@ Use all available pre-made components below:
   <div class="primary-onboarding-third-screen-content-container">
     <div class="primary-onboarding-third-screen-top-content-container text-align-center">
       <img class="primary-onboarding-third-screen-image w-11-rem margin-bottom-1-rem" src="https://firebasestorage.googleapis.com/v0/b/lonica.appspot.com/o/svg%2Fbar.svg?alt=media&token=c0f8822f-45b9-4576-bac7-1e6ceb47d09f" alt="bar">
-      <div class="primary-onboarding-third-screen-title font-size-large font-weight-bold margin-bottom-1-rem text-align-center">Track Fast</div>
-      <div class="primary-onboarding-third-screen-desc font-size-medium text-align-center">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, velit?</div>
+      <div class="primary-onboarding-third-screen-title color-black font-size-large font-weight-bold margin-bottom-1-rem text-align-center">Track Fast</div>
+      <div class="primary-onboarding-third-screen-desc color-black font-size-medium text-align-center">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, velit?</div>
     </div>
     <div class="primary-onboarding-third-screen-bottom-content-container w-100-pct display-grid place-content-center text-align-center">
       <div class="primary-onboarding-third-screen-stepper-container">
@@ -857,25 +856,6 @@ Use all available pre-made components below:
     </table>
   </div>
 </div>
-```
-
-
-### Showing Up Components
-
-To show a specific component such as a Dropdown, Side Bar, Search, Bottom Sheet Dialog, Alert Dialog, and Toast, just simply copy the id name of the component you want to show, and paste it wherever you want, for example inside the button, icon or even a text. It will show up automatically once clicked.
-
-```sh
-id="showDropdownMenuComponent"
-
-id="showSideBarComponent"
-
-id="showSearchComponent"
-
-id="showBottomSheetDialogComponent"
-
-id="showAlertDialogComponent"
-
-id="showToastComponent"
 ```
 
 
@@ -1403,31 +1383,31 @@ font-size-medium   =   { font-size: 16px; }
 
 ------------------------------------------------------------------
 
-font-size-large   =   { font-size: 18px; }
+font-size-large   =   { font-size: 17px; }
 
 ------------------------------------------------------------------
 
-font-size-larger   =   { font-size: 24px; }
+font-size-larger   =   { font-size: 20px; }
 
 ------------------------------------------------------------------
 
-font-size-extra-large   =   { font-size: 1.8rem; }
+font-size-extra-large   =   { font-size: 1.5rem; }
 
 ------------------------------------------------------------------
 
-font-size-super-large   =   { font-size: 2.3rem; }
+font-size-super-large   =   { font-size: 2rem; }
 
 ------------------------------------------------------------------
 
-font-size-massive   =   { font-size: 3rem; }
+font-size-massive   =   { font-size: 2.5rem; }
 
 ------------------------------------------------------------------
 
-font-size-super-massive   =   { font-size: 3.8rem; }
+font-size-super-massive   =   { font-size: 3rem; }
 
 ------------------------------------------------------------------
 
-font-size-ton-618   =   { font-size: 4.5rem; }
+font-size-ton-618   =   { font-size: 3.5rem; }
 ```
 
 
@@ -1543,7 +1523,7 @@ border-radius-tertiary   =   { border-radius: 8px; }
 
 ------------------------------------------------------------------
 
-border-radius-quaternairy   =   { border-radius: 10px; }
+border-radius-quaternary   =   { border-radius: 10px; }
 
 ------------------------------------------------------------------
 
@@ -1617,6 +1597,32 @@ background-color-amethyst   =   { background-color: var(--amethyst); }
 <img src="https://firebasestorage.googleapis.com/v0/b/lonica.appspot.com/o/img%2Fcolor-4.png?alt=media&token=13203dc7-9920-4087-b8c6-7ba082843877" style="max-width:100%;" width="970">
 <img src="https://firebasestorage.googleapis.com/v0/b/lonica.appspot.com/o/img%2Fcolor-5.png?alt=media&token=7e125221-d776-4e84-b165-0c3222f885e2" style="max-width:100%;" width="970">
 
+
+## Other
+
+```sh
+active-shadow-primary  =  active-shadow-primary:active { box-shadow: var(--shadow-primary); }
+
+------------------------------------------------------------------
+
+hover-shadow-primary  =  hover-shadow-primary:hover { box-shadow: var(--shadow-primary); }
+
+------------------------------------------------------------------
+
+active-shadow-none  =  active-shadow-none:active { box-shadow: none; transition: none; }
+
+------------------------------------------------------------------
+
+hover-shadow-none  =  hover-shadow-none:hover { box-shadow: none; transition: none; }
+
+------------------------------------------------------------------
+
+color-active-primary  =  color-active-primary { color: var(--primary); }
+
+------------------------------------------------------------------
+
+background-color-active-primary  =  background-color-active-primary { background-color: var(--primary); }
+```
 
 
 ## Licensing
