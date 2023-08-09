@@ -584,7 +584,7 @@ Use all available pre-made components below:
             
 ------------------------------------------------------------------
 
-<div class="secondary-card-container w-22-rem h-fit-content background-color-white">
+<div class="secondary-card-container background-color-white">
   <div class="secondary-card-content-container">
     <div class="secondary-card-top-container">
       <div class="secondary-card-top-image-container">
@@ -592,7 +592,7 @@ Use all available pre-made components below:
       </div>
       <div class="secondary-card-top-text-icon-container">
         <div class="secondary-card-top-text-container">
-          <div class="secondary-card-top-text-title color-black font-size-medium font-weight-600">Lonica CSS Framework</div>
+          <div class="secondary-card-top-text-title color-black font-size-medium">Lonica CSS Framework</div>
           <div class="secondary-card-top-text-description color-tost font-size-smaller">January 12, 2023</div>
         </div>
         <div class="secondary-card-top-icon-container" title="Option">
@@ -601,7 +601,7 @@ Use all available pre-made components below:
       </div>
     </div>
     <div class="secondary-card-bottom-container">
-      <img class="secondary-card-bottom-image h-12-rem" src="https://source.unsplash.com/random/portrait" alt="random-image"/>
+      <img class="secondary-card-bottom-image h-15-point-5-rem" src="https://source.unsplash.com/random/portrait" alt="random-image"/>
       <div class="secondary-card-bottom-description color-toast font-size-medium">ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</div>
       <div class="secondary-card-bottom-text-icon-container">
         <div class="secondary-card-bottom-icon-container">
