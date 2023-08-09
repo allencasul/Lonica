@@ -12,14 +12,14 @@ An open-source design system framework that provides access to pre-built class c
 
 ```sh
 <head>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/allencasul/lonica@ecf757694536701bca01f35abccd027d973b87cb/css/cdn/lonica.css" integrity="sha256-ZvOPRbk40bnqb7kYJpMnfIBOoIKaHXksgI9BWuvupYE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/allencasul/lonica@ea23965f2368b07e7b60728c6423eb19f9444bed/css/cdn/lonica.css" integrity="sha256-ZvOPRbk40bnqb7kYJpMnfIBOoIKaHXksgI9BWuvupYE=" crossorigin="anonymous">
   <script defer src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
   <script defer src="https://kit.fontawesome.com/1e8d61f212.js"></script>
 </head>
 
 <body>
 
-  <script defer src="https://cdn.jsdelivr.net/gh/allencasul/lonica@ecf757694536701bca01f35abccd027d973b87cb/js/components.min.js" integrity="sha256-RDu3ysp4BVgm91duXwSsiZ4cx8UGcnSA2hxKLFZMjP8=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/gh/allencasul/lonica@ea23965f2368b07e7b60728c6423eb19f9444bed/js/components.min.js" integrity="sha256-RDu3ysp4BVgm91duXwSsiZ4cx8UGcnSA2hxKLFZMjP8=" crossorigin="anonymous"></script>
 </body>
 ```
 
