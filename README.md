@@ -12,7 +12,7 @@ An open-source design system framework that provides access to pre-built class c
 
 ```sh
 <head>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/allencasul/lonica@ea23965f2368b07e7b60728c6423eb19f9444bed/css/cdn/lonica.css" integrity="sha256-ZvOPRbk40bnqb7kYJpMnfIBOoIKaHXksgI9BWuvupYE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/allencasul/lonica@d9dbccfa5b0a4666760e4f72b28effa775c56857/css/cdn/lonica.css" integrity="sha256-E1S8yAbnRZ6uM4sA6NMSgTyoDsdK1ZCjBYF3lqXqv6Q=" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/1e8d61f212.js"></script>
 </head>
 ```
