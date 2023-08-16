@@ -31,7 +31,7 @@ Overview:
 
 ## Framework Description
 
-**Lonica** is a lightweight general purpose design system framework primarily for building hybrid mobile app user interfaces. It is designed to simplify the process of building websites and applications by providing a set of pre-designed UI elements, layout structures, and reusable components that can be easily customized to fit specific project requirements. Lonica CSS Framework comes with a simple and intuitive Documentation, making it easy for both beginners and experienced developers to use it. Its responsive nature allows it to adapt to different screen sizes, making it ideal for building mobile-first web applications.
+**Lonica** It is designed to simplify the process of building websites and applications by providing a set of pre-designed UI elements, layout structures, and reusable components that can be easily customized to fit specific project requirements. Lonica CSS Framework comes with a simple and intuitive Documentation, making it easy for both beginners and experienced developers to use it. Its responsive nature allows it to adapt to different screen sizes, making it ideal for building mobile-first web applications.
 
 ## Browser Support
 
