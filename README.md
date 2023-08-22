@@ -23,7 +23,7 @@ Installing Lonica CSS
 ### Utilizing Framework via NPM
 
 ```sh
-npm install lonica
+npm install lonica@latest
 ```
 
 
