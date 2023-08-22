@@ -62,38 +62,36 @@ Create index.html file, and copy paste the boilerplate below.
   <script src="https://kit.fontawesome.com/1e8d61f212.js"></script>
 </head>
 <body>
-  <section><!--APP BAR--></section>
+  <!--APP BAR-->
 
-  <section><!--DROP DOWN MENU--></section>
+  <!--DROP DOWN MENU-->
 
-  <section><!--FLOATING ACTION BUTTON--></section>
+  <!--FLOATING ACTION BUTTON-->
 
-  <section><!--BOTTOM NAVIGATION BAR--></section>
+  <!--BOTTOM NAVIGATION BAR-->
 
-  <section><!--SEARCH--></section>
+  <!--SEARCH-->
 
-  <section><!--BOTTOM SHEET DIALOG--></section>
+  <!--BOTTOM SHEET DIALOG-->
 
-  <section><!--SIDE BAR--></section>
+  <!--SIDE BAR-->
 
-  <section><!--ALERT DIALOG--></section>
+  <!--ALERT DIALOG-->
 
-  <section><!--TOAST--></section>
+  <!--TOAST-->
 
-  <section><!--CARD--></section>
+  <!--CARD-->
 
-  <section>
   <!--PRELOADER-->
-    <div class="primary-preloader-overlay" id="primaryPreloaderOverlay">
-      <div class="primary-preloader-container">
-        <div class="primary-preloader-content-container">
-          <div class="primary-preloader">
+  <div class="primary-preloader-overlay" id="primaryPreloaderOverlay">
+    <div class="primary-preloader-container">
+      <div class="primary-preloader-content-container">
+        <div class="primary-preloader">
 
-          </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
 </body>
 </html>
 ```
