@@ -807,6 +807,12 @@ w-fit-content   =   { width: fit-content; }
 Width Auto
 
 w-auto   =   { width: auto; }
+
+------------------------------------------------------------------
+
+Max Width
+
+max-w-100-pct   =   { max-width: 100%; }
 ```
 
 
@@ -858,23 +864,27 @@ margin-auto   =   { margin: auto; }
 
 ------------------------------------------------------------------
 
-margin-1-rem   =   { margin: 1rem; }
+margin-point-5-rem   =   { margin: .5rem; }   |   .5-100
 
 ------------------------------------------------------------------
 
-margin-top-1-rem   =   { margin-top: 1rem; }
+margin-1-rem   =   { margin: 1rem; }   |   1-100
 
 ------------------------------------------------------------------
 
-margin-bottom-1-rem   =   { margin-bottom: 1rem; }
+margin-top-1-rem   =   { margin-top: 1rem; }   |   1-100
 
 ------------------------------------------------------------------
 
-margin-left-1-rem   =   { margin-left: 1rem; }
+margin-bottom-1-rem   =   { margin-bottom: 1rem; }   |   1-100
 
 ------------------------------------------------------------------
 
-margin-right-1-rem   =   { margin-right: 1rem; }
+margin-left-1-rem   =   { margin-left: 1rem; }   |   1-100
+
+------------------------------------------------------------------
+
+margin-right-1-rem   =   { margin-right: 1rem; }   |   1-100
 ```
 
 
@@ -883,23 +893,79 @@ margin-right-1-rem   =   { margin-right: 1rem; }
 ```sh
 Padding in Rem 1-100rem
 
-padding-1-rem   =   { padding: 1rem; }
+padding-point-5-rem   =   { padding: .5rem; }   |   .5-100
 
 ------------------------------------------------------------------
 
-padding-top-1-rem   =   { padding-top: 1rem; }
+padding-1-rem   =   { padding: 1rem; }   |   1-100
 
 ------------------------------------------------------------------
 
-padding-bottom-1-rem   =   { padding-bottom: 1rem; }
+padding-top-1-rem   =   { padding-top: 1rem; }   |   1-100
 
 ------------------------------------------------------------------
 
-padding-left-1-rem   =   { padding-left: 1rem; }
+padding-bottom-1-rem   =   { padding-bottom: 1rem; }   |   1-100
 
 ------------------------------------------------------------------
 
-padding-right-1-rem   =   { padding-right: 1rem; }
+padding-left-1-rem   =   { padding-left: 1rem; }   |   1-100
+
+------------------------------------------------------------------
+
+padding-right-1-rem   =   { padding-right: 1rem; }   |   1-100
+```
+
+
+## Top
+
+```sh
+Top in Rem 1-100rem
+
+top-point-5-rem   =   { top: .5rem; }   |   .5-100
+
+------------------------------------------------------------------
+
+top-1-rem   =   { top: 1rem; }   |   1-100
+```
+
+
+## Bottom
+
+```sh
+Bottom in Rem 1-100rem
+
+bottom-point-5-rem   =   { bottom: .5rem; }   |   .5-100
+
+------------------------------------------------------------------
+
+bottom-1-rem   =   { bottom: 1rem; }   |   1-100
+```
+
+
+## Left
+
+```sh
+Left in Rem 1-100rem
+
+left-point-5-rem   =   { left: .5rem; }   |   .5-100
+
+------------------------------------------------------------------
+
+left-1-rem   =   { left: 1rem; }   |   1-100
+```
+
+
+## Right
+
+```sh
+Right in Rem 1-100rem
+
+right-point-5-rem   =   { right: .5rem; }   |   .5-100
+
+------------------------------------------------------------------
+
+left-1-rem   =   { left: 1rem; }   |   1-100
 ```
 
 
