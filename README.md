@@ -57,7 +57,6 @@ Create index.html file, and copy paste the boilerplate below.
   <meta name="description" content="Lonica CSS Framework, your front-end development partner."/>
   <meta name="keywords" content="Lonica CSS Framework, lonica"/>
   <title>Lonica: Modern CSS Framework</title>
-  <link rel="shortcut icon" href="#" type="image/x-icon">
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/1e8d61f212.js"></script>
 </head>
