@@ -106,21 +106,21 @@ Create style.css file, and copy paste the code below.
 @import 'node_modules/lonica/css/utilities/utilities.min.css';
 
 /*--------- Components ---------*/
-@import 'node_modules/lonica/css/components/preloader.css';
-@import 'node_modules/lonica/css/components/app-bar.css';
-@import 'node_modules/lonica/css/components/side-bar.css';
-@import 'node_modules/lonica/css/components/floating-action-button.css';
-@import 'node_modules/lonica/css/components/bottom-navigation-bar.css';
-@import 'node_modules/lonica/css/components/drop-down-menu.css';
-@import 'node_modules/lonica/css/components/alert-dialog.css';
-@import 'node_modules/lonica/css/components/bottom-sheet-dialog.css';
-@import 'node_modules/lonica/css/components/toast.css';
-@import 'node_modules/lonica/css/components/card.css';
-@import 'node_modules/lonica/css/components/input.css';
-@import 'node_modules/lonica/css/components/checkbox.css';
-@import 'node_modules/lonica/css/components/button.css';
-@import 'node_modules/lonica/css/components/stepper.css';
-@import 'node_modules/lonica/css/components/table.css';  
+@import 'node_modules/lonica/css/components/preloader.min.css';
+@import 'node_modules/lonica/css/components/app-bar.min.css';
+@import 'node_modules/lonica/css/components/side-bar.min.css';
+@import 'node_modules/lonica/css/components/floating-action-button.min.css';
+@import 'node_modules/lonica/css/components/bottom-navigation-bar.min.css';
+@import 'node_modules/lonica/css/components/drop-down-menu.min.css';
+@import 'node_modules/lonica/css/components/alert-dialog.min.css';
+@import 'node_modules/lonica/css/components/bottom-sheet-dialog.min.css';
+@import 'node_modules/lonica/css/components/toast.min.css';
+@import 'node_modules/lonica/css/components/card.min.css';
+@import 'node_modules/lonica/css/components/input.min.css';
+@import 'node_modules/lonica/css/components/checkbox.min.css';
+@import 'node_modules/lonica/css/components/button.min.css';
+@import 'node_modules/lonica/css/components/stepper.min.css';
+@import 'node_modules/lonica/css/components/table.min.css';  
 ```
 
 
@@ -414,36 +414,36 @@ Use all available pre-made components below:
 ## Drop Down Menu
 
 ```sh
-<div class="primary-drop-down-menu-overlay" id="primaryDropDownMenuOverlay"></div>
-<div class="primary-drop-down-menu-container" id="primaryDropDownMenuContainer">
-  <div class="primary-drop-down-menu-content-container">
-    <i class="fa-solid fa-newspaper primary-drop-down-menu-icon"></i>
-    <p class="primary-drop-down-menu-icon-text">Documentation</p>
-  </div>
-  <div class="primary-drop-down-menu-content-container">
-    <i class="fa-solid fa-pager primary-drop-down-menu-icon"></i>
-    <p class="primary-drop-down-menu-icon-text">Blog</p>
-  </div>
-  <div class="primary-drop-down-menu-content-container">
-    <i class="fa-solid fa-phone primary-drop-down-menu-icon"></i>
-    <p class="primary-drop-down-menu-icon-text">Contact</p>
-  </div>
-</div> 
+<div class="primary-drop-down-menu-overlay background-color-transparent" id="primaryDropDownMenuOverlay">
+  <div class="primary-drop-down-menu-container" id="primaryDropDownMenuContainer">
+    <div class="primary-drop-down-menu-content-container">
+      <i class="fa-solid fa-newspaper primary-drop-down-menu-icon"></i>
+      <p class="primary-drop-down-menu-icon-text">Documentation</p>
+    </div>
+    <div class="primary-drop-down-menu-content-container">
+      <i class="fa-solid fa-pager primary-drop-down-menu-icon"></i>
+      <p class="primary-drop-down-menu-icon-text">Blog</p>
+    </div>
+    <div class="primary-drop-down-menu-content-container">
+      <i class="fa-solid fa-phone primary-drop-down-menu-icon"></i>
+      <p class="primary-drop-down-menu-icon-text">Contact</p>
+    </div>
+  </div> 
+</div>
 ```
 
 ## Alert Dialog
 
 ```sh
-<div class="primary-alert-dialog-overlay" id="primaryAlertDialogOverlay"></div>
-<div class="primary-alert-dialog-container" id="primaryAlertDialogContainer">
-  <div class="primary-alert-dialog-content-container">
-    <div class="primary-alert-dialog-text-title">Delete Account?</div>
-    <div class="primary-alert-dialog-text-description">
-      This will delete your account permanently.
-    </div>
-    <div class="primary-alert-dialog-action-container">
-      <div class="primary-alert-dialog-action" id="hideAlertDialog">Cancel</div>
-      <div class="primary-alert-dialog-action color-danger">Delete</div>
+<div class="primary-alert-dialog-overlay" id="primaryAlertDialogOverlay">
+  <div class="primary-alert-dialog-container" id="primaryAlertDialogContainer">
+    <div class="primary-alert-dialog-content-container">
+      <div class="primary-alert-dialog-text-title">Delete Account?</div>
+      <div class="primary-alert-dialog-text-description">This will delete your account permanently.</div>
+      <div class="primary-alert-dialog-action-container">
+        <div class="primary-alert-dialog-action" id="hideAlertDialog">Cancel</div>
+        <div class="primary-alert-dialog-action color-danger">Delete</div>
+      </div>
     </div>
   </div>
 </div>
@@ -686,25 +686,12 @@ Use all available pre-made components below:
 ## Input 
 
 ```sh
-<div class="primary-input-container display-grid place-content-center">
+<div class="primary-input-container">
   <div class="primary-input-content-container">
     <i class="fa-solid fa-search primary-input-icon color-primary"></i>
     <input type="text" class="primary-input background-color-white color-black font-size-medium" placeholder="Search..." autocomplete="off">
   </div>
   <hr class="primary-input-line border-color-primary">
-</div>
-```
-
-## Search
-
-```sh
-<div class="primary-search-overlay" id="primarySearchOverlay"></div>
-<div class="primary-search-container background-color-white" id="primarySearchContainer">
-  <form class="primary-search-content-container" method="get">
-    <i class="fa-solid fa-arrow-left primary-search-icon color-black" id="hideSearch" title="Back"></i>
-    <input class="primary-search-input w-100-pct background-color-white font-size-large color-black border-none" type="text" placeholder="Search here...">
-    <button class="primary-search-button" type="submit"><i class="fa-solid fa-search primary-search-icon color-black" title="Search"></i></button>
-  </form>
 </div>
 ```
 
@@ -863,7 +850,7 @@ margin-auto   =   { margin: auto; }
 
 ------------------------------------------------------------------
 
-margin-point-5-rem   =   { margin: .5rem; }   |   .5-100
+margin-point-5-rem   =   { margin: .5rem; }   |   .5-100rem
 
 ------------------------------------------------------------------
 
@@ -892,7 +879,7 @@ margin-right-1-rem   =   { margin-right: 1rem; }   |   1-100
 ```sh
 Padding in Rem 1-100rem
 
-padding-point-5-rem   =   { padding: .5rem; }   |   .5-100
+padding-point-5-rem   =   { padding: .5rem; }   |   .5-100rem
 
 ------------------------------------------------------------------
 
@@ -921,7 +908,11 @@ padding-right-1-rem   =   { padding-right: 1rem; }   |   1-100
 ```sh
 Top in Rem 1-100rem
 
-top-point-5-rem   =   { top: .5rem; }   |   .5-100
+top-zero   =   { top: 0; }   |   0-100rem
+
+------------------------------------------------------------------
+
+top-point-5-rem   =   { top: .5rem; }   |   .5-100rem
 
 ------------------------------------------------------------------
 
@@ -934,7 +925,11 @@ top-1-rem   =   { top: 1rem; }   |   1-100
 ```sh
 Bottom in Rem 1-100rem
 
-bottom-point-5-rem   =   { bottom: .5rem; }   |   .5-100
+bottom-zero   =   { bottom: 0; }   |   0-100rem
+
+------------------------------------------------------------------
+
+bottom-point-5-rem   =   { bottom: .5rem; }   |   .5-100rem
 
 ------------------------------------------------------------------
 
@@ -947,7 +942,11 @@ bottom-1-rem   =   { bottom: 1rem; }   |   1-100
 ```sh
 Left in Rem 1-100rem
 
-left-point-5-rem   =   { left: .5rem; }   |   .5-100
+left-zero   =   { left: 0; }   |   0-100rem
+
+------------------------------------------------------------------
+
+left-point-5-rem   =   { left: .5rem; }   |   .5-100rem
 
 ------------------------------------------------------------------
 
@@ -960,7 +959,11 @@ left-1-rem   =   { left: 1rem; }   |   1-100
 ```sh
 Right in Rem 1-100rem
 
-right-point-5-rem   =   { right: .5rem; }   |   .5-100
+right-zero   =   { right: 0; }   |   0-100rem
+
+------------------------------------------------------------------
+
+right-point-5-rem   =   { right: .5rem; }   |   .5-100rem
 
 ------------------------------------------------------------------
 
@@ -1123,9 +1126,19 @@ flex-wrap-reverse   =   { flex-wrap: wrap-reverse }
   
 ------------------------------------------------------------------
 
+gap-point-5-rem   =   { gap: .5rem; }
+
+gap-1-rem   =   { gap: 1rem; } | 1-10
+
+------------------------------------------------------------------
+
+column-gap-point-5-rem   =   { column-gap: .5rem; }
+
 column-gap-1-rem   =   { column-gap: 1rem; }
   
 ------------------------------------------------------------------
+
+row-gap-point-5-rem   =   { row-gap: .5rem; }
 
 row-gap-1-rem   =   { row-gap: 1rem; }
   
@@ -1200,18 +1213,28 @@ flex-wrap-now-wrap   =   { flex-wrap: nowrap }
 ------------------------------------------------------------------
 
 flex-wrap-reverse   =   { flex-wrap: wrap-reverse }
+
+------------------------------------------------------------------
+
+gap-point-5-rem   =   { gap: .5rem; }
+
+gap-1-rem   =   { gap: 1rem; } | 1-10
   
 ------------------------------------------------------------------
+
+column-gap-point-5-rem   =   { column-gap: .5rem; }
 
 column-gap-1-rem   =   { column-gap: 1rem; }
   
 ------------------------------------------------------------------
 
+row-gap-point-5-rem   =   { row-gap: .5rem; }
+
 row-gap-1-rem   =   { row-gap: 1rem; }
   
 ------------------------------------------------------------------
 
-columns-1   =   { columns: 1; }
+columns-1   =   { columns: 1; } | 1-10
   
 ------------------------------------------------------------------
 
@@ -1248,18 +1271,28 @@ place-content-left   =   { place-content: left; }
 ------------------------------------------------------------------
 
 place-content-right   =   { place-content: right; }
-  
+
 ------------------------------------------------------------------
+
+gap-point-5-rem   =   { gap: .5rem; }
+
+gap-1-rem   =   { gap: 1rem; } | 1-10
+
+------------------------------------------------------------------
+
+column-gap-point-5-rem   =   { column-gap: .5rem; }
 
 column-gap-1-rem   =   { column-gap: 1rem; }
   
 ------------------------------------------------------------------
 
+row-gap-point-5-rem   =   { row-gap: .5rem; }
+
 row-gap-1-rem   =   { row-gap: 1rem; }
   
 ------------------------------------------------------------------
 
-columns-1   =   { columns: 1; }
+columns-1   =   { columns: 1; } | 1-10
   
 ------------------------------------------------------------------
 
@@ -1315,15 +1348,19 @@ grid-temp-col-quinary   =   { grid-template-columns: 20% 20% 20% 20% 20%; }
   
 ------------------------------------------------------------------
 
+column-gap-point-5-rem   =   { column-gap: .5rem; }
+
 column-gap-1-rem   =   { column-gap: 1rem; }
   
 ------------------------------------------------------------------
+
+row-gap-point-5-rem   =   { row-gap: .5rem; }
 
 row-gap-1-rem   =   { row-gap: 1rem; }
   
 ------------------------------------------------------------------
 
-columns-1   =   { columns: 1; }
+columns-1   =   { columns: 1; } | 1-10
   
 ------------------------------------------------------------------
 
@@ -1572,8 +1609,23 @@ background-color-amethyst   =   { background-color: var(--amethyst); }
 ## Other
 
 ```sh
+
+display-none  =  display-none { display: none }
+
+display-block  =  display-block { display: block }
+
+------------------------------------------------------------------
+
+object-fit-cover  =  object-fit-cover { object-fit: cover }
+
+object-fit-contain  =  object-fit-contain { object-fit: contain }
+
+object-fit-fill  =  object-fit-fill { object-fit: fill }
+
+------------------------------------------------------------------
+
 primary-skeleton-loader  =  primary-skeleton-loader {
-  animation: skeleton-loader 1s infinite;
+  animation: skeleton-loader 1.3s infinite;
   background: linear-gradient(90deg, var(--skeleton) 30%, f9f9f9 38%, f9f9f9 40%, var(--skeleton) 48%);
   background-size: 200% 100%;
   background-position: 100% 0;
@@ -1588,7 +1640,7 @@ primary-skeleton-loader  =  primary-skeleton-loader {
 ------------------------------------------------------------------
 
 secondary-skeleton-loader  =  secondary-skeleton-loader {
-  animation: skeleton-loader 1s infinite;
+  animation: skeleton-loader 1.3s infinite;
   background: linear-gradient(120deg, var(--skeleton) 30%, f9f9f9 38%, f9f9f9 40%, var(--skeleton) 48%);
   background-size: 200% 100%;
   background-position: 100% 0;
