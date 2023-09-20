@@ -751,6 +751,29 @@ Use all available pre-made components below:
 ```
 
 
+## Chip
+
+```sh
+<div class="primary-chip-container background-color-even">
+  <div class="primary-chip-content-container color-toast">
+    <i class="fa-solid fa-user-circle font-size-extra-large active"></i>
+    Avatar Chip
+    <i class="fa-solid fa-circle-xmark font-size-medium color-gray" title="Remove"></i>
+  </div>
+</div>
+
+------------------------------------------------------------------
+
+<div class="secondary-chip-container background-color-odd">
+  <div class="secondary-chip-content-container color-toast">
+    <img class="secondary-chip-image" src="https://firebasestorage.googleapis.com/v0/b/lonica.appspot.com/o/img%2Ffounder.webp?alt=media&token=12adc7a0-76a4-4cf1-980f-38d3afd61ff4" alt="profile-photo" title="View Profile">
+    Allen Charls Casul
+    <i class="fa-solid fa-circle-xmark font-size-medium color-gray" title="Remove"></i>
+  </div>
+</div>
+```
+
+
 ### Lonica CSS Utilities
 
 Use built-in utility classes to write custom CSS directly inside your markup.

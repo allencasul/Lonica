@@ -512,6 +512,12 @@ button {
 .color-transparent {
   color: var(--transparent);
 }
+.color-odd {
+  color: var(--odd);
+}
+.color-even {
+  color: var(--even);
+}
 .color-skeleton {
   color: var(--skeleton);
 }
@@ -823,6 +829,12 @@ button {
 }
 .background-color-transparent {
   background-color: var(--transparent);
+}
+.background-color-odd {
+  background-color: var(--odd);
+}
+.background-color-even {
+  background-color: var(--even);
 }
 .background-color-overlay {
   background-color: var(--overlay);
@@ -1411,6 +1423,12 @@ button {
 }
 .border-color-skyblue {
   border-color: var(--skyblue);
+}
+.border-color-odd {
+  border-color: var(--odd);
+}
+.border-color-even {
+  border-color: var(--even);
 }
 .border-color-primary {
   border-color: var(--primary);
